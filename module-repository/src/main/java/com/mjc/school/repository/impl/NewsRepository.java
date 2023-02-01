@@ -1,11 +1,11 @@
-package com.mjc.school.implementation;
+package com.mjc.school.repository.impl;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import com.mjc.school.interfaces.Repository;
 import com.mjc.school.model.NewsModel;
+import com.mjc.school.repository.Repository;
 import com.mjc.school.utils.DataSource;
 
 public class NewsRepository implements Repository<NewsModel> {

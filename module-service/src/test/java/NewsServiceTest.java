@@ -5,13 +5,11 @@ import com.mjc.school.dto.NewsDtoRequest;
 import com.mjc.school.dto.NewsDtoResponse;
 import com.mjc.school.factory.Factory;
 import com.mjc.school.factory.RepositoryFactory;
-import com.mjc.school.interfaces.ModelMapper;
-import com.mjc.school.interfaces.Repository;
+import com.mjc.school.repository.Repository;
 import com.mjc.school.interfaces.Service;
 import com.mjc.school.model.NewsModel;
 
 import org.junit.jupiter.api.Test;
-import org.mapstruct.factory.Mappers;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

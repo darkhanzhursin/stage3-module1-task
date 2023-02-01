@@ -1,7 +1,7 @@
 package com.mjc.school.factory;
 
-import com.mjc.school.implementation.NewsRepository;
-import com.mjc.school.interfaces.Repository;
+import com.mjc.school.repository.impl.NewsRepository;
+import com.mjc.school.repository.Repository;
 import com.mjc.school.model.NewsModel;
 
 public class RepositoryFactory {

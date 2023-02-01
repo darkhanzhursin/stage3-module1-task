@@ -1,6 +1,6 @@
 package com.mjc.school.factory;
 
-import com.mjc.school.implementation.NewsService;
+import com.mjc.school.repository.NewsService;
 
 public class Factory {
   private static Factory instance;

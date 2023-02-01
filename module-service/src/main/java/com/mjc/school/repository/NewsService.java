@@ -1,4 +1,4 @@
-package com.mjc.school.implementation;
+package com.mjc.school.repository;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -10,7 +10,6 @@ import com.mjc.school.exceptions.NotFoundException;
 import com.mjc.school.exceptions.ServiceErrorException;
 import com.mjc.school.factory.RepositoryFactory;
 import com.mjc.school.interfaces.ModelMapper;
-import com.mjc.school.interfaces.Repository;
 import com.mjc.school.interfaces.Service;
 import com.mjc.school.model.NewsModel;
 import com.mjc.school.validation.Validation;
